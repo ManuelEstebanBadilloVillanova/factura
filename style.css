@@ -1,0 +1,337 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    display: inline-block;
+}
+
+.sheet
+{
+    background-color: aqua;
+    border: solid 1px ;
+    width: 50%;
+    height: 120vh;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
+/* section 1 */
+
+.sheet_sect1
+{
+    background-color: white;
+    position: relative;
+    height: 43.3%;
+}
+
+.sheet_sect1-logo
+{
+    position: absolute;
+    top: 5vh;
+    left: 7vh;
+    z-index: 3;
+}
+
+.sheet_sect1-header1
+{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    margin-bottom: 5%;
+    z-index: 2;
+}
+
+.sheet_sect1-header2
+{
+    position: absolute;
+    left: 20vh;
+    width: 77%;
+    height: 35%;
+    z-index: 1;
+}
+
+.sheet_sect1-title
+{
+    color: #0a405e;
+    position: relative;
+    left: 72%;
+    right: 0;
+    top: 14vh;
+
+}
+
+.sheet_sect1-date
+{
+    display: inline-block;
+    background-color:#b1dbf2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    top: 15vh;
+    bottom: 0;
+    left: 58%;
+    right: 0;
+
+    
+}
+.sheet_sect1-date p
+{
+    margin: 10px;
+}
+.sheet_sect1-ul
+{
+    display: block;
+    position: relative;
+    top: 25vh;
+    left: 10vh;
+    z-index: 1;
+    list-style-type: none;
+    
+}
+
+.adorno
+{
+    position: absolute;
+    top: 22vh;
+    left: 15vh;
+    z-index: 2;
+}
+
+.adorno2
+{
+    display: inline-block;
+    position: absolute;
+    top: 35vh;
+}
+
+.adorno4
+{
+    display: inline-block;
+    position: absolute;
+    top: 42vh;
+    right: 8vh;
+    z-index: 3;
+}
+
+
+
+/* section 2 */
+.sheet_sect2
+{
+    position: relative;
+    background-color: white;
+    height: 41.4%;
+    width: 100%;
+}
+
+.adorno3
+{
+    display: inline-block;
+    position: absolute;
+    top: 22vh;
+    right: 0;
+}
+
+
+.sep 
+{
+    display: block;
+    width: 75%;
+    position: relative;
+    top: 28vh;
+    left: 13vh;
+
+}
+
+.sheet_sect2_table
+{
+    border-collapse: collapse;
+    text-align: center;
+    width: 80vh;
+    max-height: 25vh;
+    display: inline-block;
+    position: absolute;
+    top: -4vh;
+    bottom: 0;
+    left: 6%;
+    right: 0;
+    margin: 3%;
+}
+
+.sheet_sect2_table td,th
+{
+    width: 25vh;
+    margin: 2px;
+    padding: 5px;
+}
+
+.sheet_sect2_table th
+{
+    color:white;
+}
+
+.sheet_sect2_table
+{
+    color: #000;
+}
+
+.th1
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.th3
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sheet_sect2_table-tr1
+{
+    background-color: #0a405e;
+}
+
+
+.sheet_sect2-subtitle
+{
+    display: inline-block;
+    position: absolute;
+    left: 8vh;
+    right: 15vh;
+    top: 30vh;
+    bottom: 1vh;
+    margin: 4%;
+}
+.sheet_sect2-para
+{
+    display: inline-block;
+    position: absolute;
+    top: 34vh;
+    left: 8vh;
+    margin: 4%;
+}
+.sheet_sect2_table2
+{
+    display: inline-block;
+    width: 20vh;
+    border: none;
+    position: absolute;
+    left: 54vh;
+    top: 30vh;
+    margin: 4%;
+}
+
+.sheet_sect2_table2
+{
+    text-align: center;
+    padding: 5px;
+    width: 40vh;
+    border-collapse: collapse;
+}
+
+.sheet_sect2_table2 th,td
+{
+    width: 15vh;
+}
+
+.esp
+{
+    text-align: left;
+    border: none;
+    border-top: solid 1px #000;
+}
+.sim
+{
+    text-align: left;
+    border: none;
+}
+
+
+/* section 3 */
+
+.sheet_sect3
+{
+    position: relative;
+    background-color: white;
+    height: 15.3%;
+    width: 100%;
+}
+
+.sheet_sect3-par1
+{
+    display: inline-block;
+    position: absolute;
+    top: 5vh;
+    bottom: 0;
+    left: 13vh;
+    right: 0;
+    margin: auto;
+}
+
+.sheet_sect3-paragraf2
+{
+    display: inline-block;
+    color: white;
+    width: 30vh;
+    position: absolute;
+    top: 4vh;
+    bottom: 0;
+    left: 20vh;
+    right: 0;
+    margin-left: 20em;
+    z-index: 3;
+}
+
+.firma
+{
+    size: 2px;
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    top: 0;
+}
+
+.sheet_sect3-paragraf
+{
+    display: inline-block;
+    position: absolute;
+    top: 1vh;
+    bottom: 0;
+    left: 5vh;
+    right: 0;
+    z-index: 3;
+}
+
+.sheet_sect3-footer1
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2; 
+    width: 100%;
+}
+.sheet_sect3-footer2
+{
+    position: absolute;
+    bottom: 0;
+    right: 18vh;
+    z-index: 1;
+    width: 75%;
+    height: 18vh;
+}
